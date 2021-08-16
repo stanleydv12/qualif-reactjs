@@ -1,0 +1,17 @@
+body{
+    background-color: var(--bg-dark-primary);
+    padding: 20px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+h1{
+    font-family: 'Open Sans';
+    color: var(--txt-primary);
+    font-weight: bolder;
+}

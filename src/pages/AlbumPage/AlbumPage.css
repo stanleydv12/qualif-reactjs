@@ -1,0 +1,23 @@
+.card{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(102, 103, 105, 0.2) 0px 8px 24px;
+    border: none;
+    background-color: var(--bg-dark-surface);
+    color: var(--txt-primary)
+}
+
+.card-body{
+    margin: 5px;
+}
+
+.container{
+    background-color: var(--bg-dark-primary);
+}
+
+h6{
+    font-family: 'Open Sans';
+}
+

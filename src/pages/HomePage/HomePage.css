@@ -1,0 +1,51 @@
+.album-card{
+    width: 15rem;
+    margin: 10px;
+    box-shadow: rgba(102, 103, 105, 0.2) 0px 8px 24px;
+    border: none;
+    background-color: var(--bg-dark-surface);
+    color: var(--txt-primary)
+}
+
+.album-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-color: var(--bg-dark-primary);
+}
+
+p, h6{
+    font-family: 'Open Sans';
+}
+
+p{
+    font-size: small;
+}
+
+h6{
+    font-weight: bolder;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.card-favourite{
+    margin: 5px 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid var(--txt-primary);
+    color: var(--txt-primary);
+}
+
+.card-favourite:hover{
+    margin: 5px 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid var(--txt-primary);
+    color: var(--txt-primary);
+    cursor: pointer;
+}
